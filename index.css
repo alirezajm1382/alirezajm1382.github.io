@@ -43,6 +43,10 @@ nav {
   font-size: 1.5rem;
 }
 
+.desc { 
+  font-size: 1.2rem;
+}
+
 .colcol {
   padding: 3rem 6rem !important;
   display: flex;
@@ -85,6 +89,7 @@ nav {
 
 
 #profile {
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -124,4 +129,10 @@ footer {
   bottom: 0 !important;
   padding: 3rem !important;
   text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .colcol {
+    padding: 3rem 0rem !important;
+  }
 }

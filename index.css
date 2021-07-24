@@ -50,8 +50,8 @@ nav {
 }
 
 .colcolcol {
+  position: relative;
   width: 100%;
-  padding: 1rem 6rem !important;
   display: flex;
   align-items: center;
 }
@@ -121,7 +121,7 @@ footer {
   color: white !important;
   font-size: 1.225rem;
   position: relative;
-  bottom: 0;
+  bottom: 0 !important;
   padding: 3rem !important;
   text-align: center;
 }

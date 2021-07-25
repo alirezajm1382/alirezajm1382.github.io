@@ -135,4 +135,7 @@ footer {
   .colcol {
     padding: 3rem 0rem !important;
   }
+  .copyright-text {
+    font-size: 1rem;
+  }
 }
